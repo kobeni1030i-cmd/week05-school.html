@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学校行事</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-3xl mx-auto">
+    <header class="fixed top-0 left-0 z-50 w-full bg-blue-400">
+    <div class="px-8 py-6 flex justify-between items-center">
+       <div class="flex flex-col text-center gap-2">
+         <h1 class="text-3xl font-bold text-white">本庄東高等学校</h1>
+         <p class="text-xl text-gray-800">HONJO EAST</p>
+       </div>
+       <nav class="flex flex-col gap-2 md:gap-4 md:flex-row">
+          <a href="#" class="text-white hover:text-gray-300">ホーム</a>
+          <a href="#" class="text-white hover:text-gray-300">学校紹介</a>
+       </nav>
+    </div> 
+    </header>
+    <main class="pt-32 px-4 max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold mb-4 text-blue-600 underline">学校行事</h2>
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+            <div class="bg-gray-200 overflow-hidden flex flex-col items-center gap-2 rounded-lg max-w-lg hover:shadow-lg transition">
+             <div class="text-lg bg-red-300  h-40 w-full flex items-center justify-center">🌸</div>
+             <div class="text-black text-xl p-10">入学式</div>
+            </div>
+            <div class="bg-gray-200 overflow-hidden flex flex-col items-center gap-2 rounded-lg max-w-lg hover:shadow-lg transition">
+             <div class="text-lg bg-blue-300  h-40 w-full flex items-center justify-center">🏃</div>
+             <div class="text-black text-xl p-10">体育祭</div>
+            </div>
+            <div class="bg-gray-200 overflow-hidden flex flex-col items-center gap-2 rounded-lg max-w-lg hover:shadow-lg transition">
+             <div class="text-lg bg-purple-300 h-40 w-full flex items-center justify-center">🎆</div>
+             <div class="text-black text-xl p-10">文化祭</div>
+            </div>
+        </section>
+    </main>
+</body>
+<a href="#top" class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600 fixed bottom-4 right-4 z-50">TOPに戻る</a>
+<footer class="w-full my-10 bg-gray-300 text-black p-4 text-center">お問い合わせは右の電話番号から　03-1234-5678</footer>
+</html>
